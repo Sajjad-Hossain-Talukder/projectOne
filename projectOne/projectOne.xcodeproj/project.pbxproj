@@ -13,6 +13,7 @@
 		8312A7182B3196370084C469 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8312A7162B3196370084C469 /* Main.storyboard */; };
 		8312A71A2B3196390084C469 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8312A7192B3196390084C469 /* Assets.xcassets */; };
 		8312A71D2B3196390084C469 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8312A71B2B3196390084C469 /* LaunchScreen.storyboard */; };
+		8375C9C72B31A20A00C9EAB8 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 8375C9C62B31A20A00C9EAB8 /* fonts */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8312A7192B3196390084C469 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8312A71C2B3196390084C469 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8312A71E2B3196390084C469 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8375C9C62B31A20A00C9EAB8 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				8312A7192B3196390084C469 /* Assets.xcassets */,
 				8312A71B2B3196390084C469 /* LaunchScreen.storyboard */,
 				8312A71E2B3196390084C469 /* Info.plist */,
+				8375C9C62B31A20A00C9EAB8 /* fonts */,
 			);
 			path = projectOne;
 			sourceTree = "<group>";
@@ -128,6 +131,7 @@
 				8312A71D2B3196390084C469 /* LaunchScreen.storyboard in Resources */,
 				8312A71A2B3196390084C469 /* Assets.xcassets in Resources */,
 				8312A7182B3196370084C469 /* Main.storyboard in Resources */,
+				8375C9C72B31A20A00C9EAB8 /* fonts in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
