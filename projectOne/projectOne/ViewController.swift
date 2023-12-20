@@ -9,13 +9,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var topBanner: UIView!
     
-    @IBOutlet weak var screenRecordingSpacing: UILabel!
-    
+    @IBOutlet weak var banner: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        screenRecordingSpacing.addCharacterSpacing(kernValue: 0.1)
+        banner.layer.cornerRadius = 25
     
 
     }
