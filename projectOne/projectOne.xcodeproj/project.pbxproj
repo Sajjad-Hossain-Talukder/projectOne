@@ -13,6 +13,7 @@
 		8312A7182B3196370084C469 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8312A7162B3196370084C469 /* Main.storyboard */; };
 		8312A71A2B3196390084C469 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8312A7192B3196390084C469 /* Assets.xcassets */; };
 		8312A71D2B3196390084C469 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8312A71B2B3196390084C469 /* LaunchScreen.storyboard */; };
+		832578FE2B3434C0009202B7 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832578FD2B3434C0009202B7 /* NewViewController.swift */; };
 		8375C9C72B31A20A00C9EAB8 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 8375C9C62B31A20A00C9EAB8 /* fonts */; };
 /* End PBXBuildFile section */
 
@@ -24,8 +25,9 @@
 		8312A7172B3196370084C469 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8312A7192B3196390084C469 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8312A71C2B3196390084C469 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8312A71E2B3196390084C469 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		832578FD2B3434C0009202B7 /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 		8375C9C62B31A20A00C9EAB8 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
+		83FD453C2B34881A00D493D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,10 +63,11 @@
 				8312A7102B3196370084C469 /* AppDelegate.swift */,
 				8312A7122B3196370084C469 /* SceneDelegate.swift */,
 				8312A7142B3196370084C469 /* ViewController.swift */,
+				832578FD2B3434C0009202B7 /* NewViewController.swift */,
 				8312A7162B3196370084C469 /* Main.storyboard */,
 				8312A7192B3196390084C469 /* Assets.xcassets */,
 				8312A71B2B3196390084C469 /* LaunchScreen.storyboard */,
-				8312A71E2B3196390084C469 /* Info.plist */,
+				83FD453C2B34881A00D493D9 /* Info.plist */,
 				8375C9C62B31A20A00C9EAB8 /* fonts */,
 			);
 			path = projectOne;
@@ -145,6 +148,7 @@
 				8312A7152B3196370084C469 /* ViewController.swift in Sources */,
 				8312A7112B3196370084C469 /* AppDelegate.swift in Sources */,
 				8312A7132B3196370084C469 /* SceneDelegate.swift in Sources */,
+				832578FE2B3434C0009202B7 /* NewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
