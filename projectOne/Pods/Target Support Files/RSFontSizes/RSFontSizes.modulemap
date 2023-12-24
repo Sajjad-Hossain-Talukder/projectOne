@@ -1,0 +1,6 @@
+module RSFontSizes {
+  umbrella header "RSFontSizes-umbrella.h"
+
+  export *
+  module * { export * }
+}

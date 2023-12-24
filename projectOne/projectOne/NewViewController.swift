@@ -8,19 +8,44 @@
 import UIKit
 
 class NewViewController: UIViewController {
-
-    @IBOutlet weak var titleEdit: UILabel!
-    
+        
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        titleEdit.textAlignment = .center
-        titleEdit.baselineAdjustment = .alignCenters
-        titleEdit.numberOfLines = 0
-        titleEdit.adjustsFontSizeToFitWidth = true
 
-     
     }
     
-
+    @IBAction func takeAction(_ sender: UIButton) {
+        print("ins")
+        performSegue(withIdentifier: "gooo", sender: self)
+    }
+    
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+           if segue.identifier == "gooo" {
+               var secondVC = segue.destination as! SecondViewController
+               if #available(iOS 15.0, *) {
+                   if let sheet = secondVC.sheetPresentationController{
+                       let multiplier =  0.450893
+                       let height = self.view.safeAreaLayoutGuide.layoutFrame.size.height
+                       if #available(iOS 16.0, *) {
+                           let fraction = UISheetPresentationController.Detent.custom { context in
+                               // height is the view.frame.height of the view controller which presents this bottom sheet
+                               height * multiplier
+                           }
+                           sheet.detents = [fraction]
+                       } else {
+                           // Fallback on earlier versions
+                       }
+                      
+                    
+                   }
+               } else {
+                   // Fallback on earlier versions
+               }
+               
+           }
+       }
 }
+
+

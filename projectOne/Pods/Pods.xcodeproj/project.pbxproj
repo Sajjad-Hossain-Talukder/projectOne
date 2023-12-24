@@ -1,0 +1,761 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06E0EB3C05BE157A83A9E0FB4A3BABD7 /* RSFontSizes-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B24DBAF55B20E8EF037B790B582CC6B4 /* RSFontSizes-dummy.m */; };
+		074C2D59E12EB5521238B9D427C3106E /* Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE09B504F3D4CE3D95BAFFFBFAB8DAD /* Version.swift */; };
+		18657396B6029F53D03ECC654D12C228 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC507B49AE15AB98B98F8D35FF18C4B /* StringExtension.swift */; };
+		273A4EB57D5D369A91E43A2386E09C35 /* RSFontSizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349E7FF95848F70808A2C7827B40F10F /* RSFontSizes.swift */; };
+		67AA55F8F0134391FE08C3679DAACDDB /* SizeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE87D3D7AC5B0988DE5E4316753AF02 /* SizeExtension.swift */; };
+		6EC76FB035F2BE5BD10D598149E195CE /* PointSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF59FB0EA5612AC949CA03C3C121662 /* PointSize.swift */; };
+		771A0AE520F0503A8C696A96FCB5C08E /* Pods-projectOne-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA5AD060AA7EF69613F09613895693A /* Pods-projectOne-dummy.m */; };
+		894ECF868B3E47FACB46E7509BCF6F26 /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5550BED369B5D891C4287FDD5E02DD32 /* Size.swift */; };
+		AB6AF34E240777723848D7DAADF2C800 /* Type.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B69F621B727D5A6D4207389EA3159B /* Type.swift */; };
+		B9BBCC3310C1FB808CB1CEA116732445 /* RSFontSizes-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A9FF32142B4BE7D072F938E6C3B52DC9 /* RSFontSizes-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C68EC5CA772285C1F4F0A951DDC91B46 /* UIFontExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D01581DD6762A22EE796F8B188A9B5 /* UIFontExtensions.swift */; };
+		DCFE18D0815138BC9973606A83E8F058 /* Device-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E435F48A12FB9EC312435D7DB78E46 /* Device-dummy.m */; };
+		E9FB97D050B39C60EC037BF1F94AD28A /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = A451AC061B73CD8B88F06B836BE7927B /* Device.swift */; };
+		F6961127D3EF57C869BDB1C520BBA48B /* Device-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE9ED6DF0E669EB7E3B2CDDAAC160473 /* Device-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FB47533005A1FD2E52C2FEAC3563591D /* Pods-projectOne-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 60E4E9F75C1FAFF1DC0FDE6974118B96 /* Pods-projectOne-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		424651A377A8D81183EF8563F7BA3752 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E119CE7F09441C1C972EC90ABF624E6;
+			remoteInfo = RSFontSizes;
+		};
+		43B6E9F5898BB67C23F894CA31D09549 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 113F9E1CB32724B844C418EC0DFB76E3;
+			remoteInfo = Device;
+		};
+		711E3876ABFE5A72AAB22ED203686A86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 113F9E1CB32724B844C418EC0DFB76E3;
+			remoteInfo = Device;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0426BA6FF4CDB00E8B4A2F6EB5527122 /* Pods-projectOne.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-projectOne.debug.xcconfig"; sourceTree = "<group>"; };
+		0A6B4C225D81C3DF9F15F0B161EEFB57 /* libDevice.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libDevice.a; path = libDevice.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		24E435F48A12FB9EC312435D7DB78E46 /* Device-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Device-dummy.m"; sourceTree = "<group>"; };
+		2E1FC782377D36ED0BEAFDCA16CA2699 /* libPods-projectOne.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-projectOne.a"; path = "libPods-projectOne.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		349E7FF95848F70808A2C7827B40F10F /* RSFontSizes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSFontSizes.swift; path = Sources/Classes/RSFontSizes.swift; sourceTree = "<group>"; };
+		378C24BE9633C40A4221D3D9BC6226F2 /* Pods-projectOne.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-projectOne.release.xcconfig"; sourceTree = "<group>"; };
+		4A503E22A83D2CDA4B4FDBDCF1996379 /* libRSFontSizes.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libRSFontSizes.a; path = libRSFontSizes.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5550BED369B5D891C4287FDD5E02DD32 /* Size.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Size.swift; path = Source/Size.swift; sourceTree = "<group>"; };
+		5627BBE145D32E9C7136A6C1CBF465B4 /* Device.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Device.modulemap; sourceTree = "<group>"; };
+		599B483087659578999685E55B22FDF4 /* RSFontSizes.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RSFontSizes.modulemap; sourceTree = "<group>"; };
+		60E4E9F75C1FAFF1DC0FDE6974118B96 /* Pods-projectOne-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-projectOne-umbrella.h"; sourceTree = "<group>"; };
+		6FF9E398A8BB329788EB21D9C104B89F /* RSFontSizes.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RSFontSizes.xcconfig; sourceTree = "<group>"; };
+		7FE87D3D7AC5B0988DE5E4316753AF02 /* SizeExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SizeExtension.swift; path = Sources/Classes/SizeExtension.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A42F76F95D9644D36D0BB07C5144C86C /* Device-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Device-prefix.pch"; sourceTree = "<group>"; };
+		A451AC061B73CD8B88F06B836BE7927B /* Device.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Device.swift; path = Source/iOS/Device.swift; sourceTree = "<group>"; };
+		A8B69F621B727D5A6D4207389EA3159B /* Type.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Type.swift; path = Source/Type.swift; sourceTree = "<group>"; };
+		A8F0DE6E6E9B79A63348259C4420D6F4 /* Pods-projectOne-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-projectOne-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A9FF32142B4BE7D072F938E6C3B52DC9 /* RSFontSizes-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RSFontSizes-umbrella.h"; sourceTree = "<group>"; };
+		ABC507B49AE15AB98B98F8D35FF18C4B /* StringExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringExtension.swift; path = Sources/Classes/StringExtension.swift; sourceTree = "<group>"; };
+		B24DBAF55B20E8EF037B790B582CC6B4 /* RSFontSizes-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RSFontSizes-dummy.m"; sourceTree = "<group>"; };
+		B3D01581DD6762A22EE796F8B188A9B5 /* UIFontExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIFontExtensions.swift; path = Sources/Classes/UIFontExtensions.swift; sourceTree = "<group>"; };
+		B63D81D5F109A1368CC35A679806ED87 /* Pods-projectOne.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-projectOne.modulemap"; sourceTree = "<group>"; };
+		CC24283208B9BE39DD617410D81B361E /* RSFontSizes-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RSFontSizes-prefix.pch"; sourceTree = "<group>"; };
+		CE9ED6DF0E669EB7E3B2CDDAAC160473 /* Device-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Device-umbrella.h"; sourceTree = "<group>"; };
+		CEF59FB0EA5612AC949CA03C3C121662 /* PointSize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PointSize.swift; path = Sources/Classes/PointSize.swift; sourceTree = "<group>"; };
+		DED0469572601D7C29DEAF71620F458A /* Device.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Device.xcconfig; sourceTree = "<group>"; };
+		DFE09B504F3D4CE3D95BAFFFBFAB8DAD /* Version.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Version.swift; path = Source/Version.swift; sourceTree = "<group>"; };
+		EBA5AD060AA7EF69613F09613895693A /* Pods-projectOne-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-projectOne-dummy.m"; sourceTree = "<group>"; };
+		F50F4E8140E501F6488742410F1846B5 /* Pods-projectOne-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-projectOne-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7619E7E06AE6DE5FE54D7ECEEAA0A11C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E2A294665594E0FAE28F8BD5E277FB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CE8E9F92593D4ACB92F4C92E0A56C07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06BA03734A40529E74A70C4AC4B7837C /* Pods-projectOne */ = {
+			isa = PBXGroup;
+			children = (
+				B63D81D5F109A1368CC35A679806ED87 /* Pods-projectOne.modulemap */,
+				A8F0DE6E6E9B79A63348259C4420D6F4 /* Pods-projectOne-acknowledgements.markdown */,
+				F50F4E8140E501F6488742410F1846B5 /* Pods-projectOne-acknowledgements.plist */,
+				EBA5AD060AA7EF69613F09613895693A /* Pods-projectOne-dummy.m */,
+				60E4E9F75C1FAFF1DC0FDE6974118B96 /* Pods-projectOne-umbrella.h */,
+				0426BA6FF4CDB00E8B4A2F6EB5527122 /* Pods-projectOne.debug.xcconfig */,
+				378C24BE9633C40A4221D3D9BC6226F2 /* Pods-projectOne.release.xcconfig */,
+			);
+			name = "Pods-projectOne";
+			path = "Target Support Files/Pods-projectOne";
+			sourceTree = "<group>";
+		};
+		077B16F8A872F7A4D6C8A64FEB008969 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				06BA03734A40529E74A70C4AC4B7837C /* Pods-projectOne */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		75D12DF8536FD40DE5BDA63B756DDD22 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9BDC2ABC9ABEB863443A3F0D56C8119E /* Device */,
+				AE9002E3F161D259CCCBC6C0E1CC5D97 /* RSFontSizes */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		96946C287CE0ED8575F911CF0CA73D34 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5627BBE145D32E9C7136A6C1CBF465B4 /* Device.modulemap */,
+				DED0469572601D7C29DEAF71620F458A /* Device.xcconfig */,
+				24E435F48A12FB9EC312435D7DB78E46 /* Device-dummy.m */,
+				A42F76F95D9644D36D0BB07C5144C86C /* Device-prefix.pch */,
+				CE9ED6DF0E669EB7E3B2CDDAAC160473 /* Device-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Device";
+			sourceTree = "<group>";
+		};
+		9BDC2ABC9ABEB863443A3F0D56C8119E /* Device */ = {
+			isa = PBXGroup;
+			children = (
+				A451AC061B73CD8B88F06B836BE7927B /* Device.swift */,
+				5550BED369B5D891C4287FDD5E02DD32 /* Size.swift */,
+				A8B69F621B727D5A6D4207389EA3159B /* Type.swift */,
+				DFE09B504F3D4CE3D95BAFFFBFAB8DAD /* Version.swift */,
+				96946C287CE0ED8575F911CF0CA73D34 /* Support Files */,
+			);
+			name = Device;
+			path = Device;
+			sourceTree = "<group>";
+		};
+		ACADC245A1C382CF6CFCCF86F5E0D97E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				599B483087659578999685E55B22FDF4 /* RSFontSizes.modulemap */,
+				6FF9E398A8BB329788EB21D9C104B89F /* RSFontSizes.xcconfig */,
+				B24DBAF55B20E8EF037B790B582CC6B4 /* RSFontSizes-dummy.m */,
+				CC24283208B9BE39DD617410D81B361E /* RSFontSizes-prefix.pch */,
+				A9FF32142B4BE7D072F938E6C3B52DC9 /* RSFontSizes-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RSFontSizes";
+			sourceTree = "<group>";
+		};
+		AE9002E3F161D259CCCBC6C0E1CC5D97 /* RSFontSizes */ = {
+			isa = PBXGroup;
+			children = (
+				CEF59FB0EA5612AC949CA03C3C121662 /* PointSize.swift */,
+				349E7FF95848F70808A2C7827B40F10F /* RSFontSizes.swift */,
+				7FE87D3D7AC5B0988DE5E4316753AF02 /* SizeExtension.swift */,
+				ABC507B49AE15AB98B98F8D35FF18C4B /* StringExtension.swift */,
+				B3D01581DD6762A22EE796F8B188A9B5 /* UIFontExtensions.swift */,
+				ACADC245A1C382CF6CFCCF86F5E0D97E /* Support Files */,
+			);
+			name = RSFontSizes;
+			path = RSFontSizes;
+			sourceTree = "<group>";
+		};
+		C8D6AE988C5F898F9C3A48C98F1568A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A6B4C225D81C3DF9F15F0B161EEFB57 /* libDevice.a */,
+				2E1FC782377D36ED0BEAFDCA16CA2699 /* libPods-projectOne.a */,
+				4A503E22A83D2CDA4B4FDBDCF1996379 /* libRSFontSizes.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				75D12DF8536FD40DE5BDA63B756DDD22 /* Pods */,
+				C8D6AE988C5F898F9C3A48C98F1568A7 /* Products */,
+				077B16F8A872F7A4D6C8A64FEB008969 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		61931D352A0C0BB69657661E97A11F00 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6961127D3EF57C869BDB1C520BBA48B /* Device-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA6B1E2ABEADBED2779274EAB5D0E3F0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB47533005A1FD2E52C2FEAC3563591D /* Pods-projectOne-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F33B117E86BE3E589B5D320ACCDFCFAC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9BBCC3310C1FB808CB1CEA116732445 /* RSFontSizes-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0AFB79D77BF07DC3736D18AF9B875995 /* Pods-projectOne */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF7A107B4AD872737E1C378A5CB125ED /* Build configuration list for PBXNativeTarget "Pods-projectOne" */;
+			buildPhases = (
+				AA6B1E2ABEADBED2779274EAB5D0E3F0 /* Headers */,
+				0DD40862FA6342C6F8AA6FEB0994D624 /* Sources */,
+				7619E7E06AE6DE5FE54D7ECEEAA0A11C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D30634D43B0636B95B880F32765BBDE /* PBXTargetDependency */,
+				E2BA5EC18A0B3F153538D1E904FCEAC0 /* PBXTargetDependency */,
+			);
+			name = "Pods-projectOne";
+			productName = "Pods-projectOne";
+			productReference = 2E1FC782377D36ED0BEAFDCA16CA2699 /* libPods-projectOne.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		0E119CE7F09441C1C972EC90ABF624E6 /* RSFontSizes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56D65BB78346FCEDA8E1F0C24D52D0BA /* Build configuration list for PBXNativeTarget "RSFontSizes" */;
+			buildPhases = (
+				F33B117E86BE3E589B5D320ACCDFCFAC /* Headers */,
+				8FB4530EB347DAB46D6ED77E260ED364 /* Sources */,
+				7E2A294665594E0FAE28F8BD5E277FB1 /* Frameworks */,
+				EF5B20C5BC4B68838CEC476C4C6BB923 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5D45610D58D36C618DD665418ABA95F /* PBXTargetDependency */,
+			);
+			name = RSFontSizes;
+			productName = RSFontSizes;
+			productReference = 4A503E22A83D2CDA4B4FDBDCF1996379 /* libRSFontSizes.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		113F9E1CB32724B844C418EC0DFB76E3 /* Device */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C75E5D106123A7C16491F9412465BB4 /* Build configuration list for PBXNativeTarget "Device" */;
+			buildPhases = (
+				61931D352A0C0BB69657661E97A11F00 /* Headers */,
+				FF6E02BEE121A5932BEF2C56C1596444 /* Sources */,
+				9CE8E9F92593D4ACB92F4C92E0A56C07 /* Frameworks */,
+				A7AE95B2C33B0A594219001356DCE5E8 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Device;
+			productName = Device;
+			productReference = 0A6B4C225D81C3DF9F15F0B161EEFB57 /* libDevice.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C8D6AE988C5F898F9C3A48C98F1568A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				113F9E1CB32724B844C418EC0DFB76E3 /* Device */,
+				0AFB79D77BF07DC3736D18AF9B875995 /* Pods-projectOne */,
+				0E119CE7F09441C1C972EC90ABF624E6 /* RSFontSizes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A7AE95B2C33B0A594219001356DCE5E8 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/Device/Device.modulemap",
+				"${PODS_ROOT}/Headers/Public/Device/Device-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/Device-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/Device/Device.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/Device/Device-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+		EF5B20C5BC4B68838CEC476C4C6BB923 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/RSFontSizes/RSFontSizes.modulemap",
+				"${PODS_ROOT}/Headers/Public/RSFontSizes/RSFontSizes-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/RSFontSizes-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/RSFontSizes/RSFontSizes.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/RSFontSizes/RSFontSizes-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DD40862FA6342C6F8AA6FEB0994D624 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				771A0AE520F0503A8C696A96FCB5C08E /* Pods-projectOne-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FB4530EB347DAB46D6ED77E260ED364 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EC76FB035F2BE5BD10D598149E195CE /* PointSize.swift in Sources */,
+				273A4EB57D5D369A91E43A2386E09C35 /* RSFontSizes.swift in Sources */,
+				06E0EB3C05BE157A83A9E0FB4A3BABD7 /* RSFontSizes-dummy.m in Sources */,
+				67AA55F8F0134391FE08C3679DAACDDB /* SizeExtension.swift in Sources */,
+				18657396B6029F53D03ECC654D12C228 /* StringExtension.swift in Sources */,
+				C68EC5CA772285C1F4F0A951DDC91B46 /* UIFontExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF6E02BEE121A5932BEF2C56C1596444 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9FB97D050B39C60EC037BF1F94AD28A /* Device.swift in Sources */,
+				DCFE18D0815138BC9973606A83E8F058 /* Device-dummy.m in Sources */,
+				894ECF868B3E47FACB46E7509BCF6F26 /* Size.swift in Sources */,
+				AB6AF34E240777723848D7DAADF2C800 /* Type.swift in Sources */,
+				074C2D59E12EB5521238B9D427C3106E /* Version.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D30634D43B0636B95B880F32765BBDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Device;
+			target = 113F9E1CB32724B844C418EC0DFB76E3 /* Device */;
+			targetProxy = 711E3876ABFE5A72AAB22ED203686A86 /* PBXContainerItemProxy */;
+		};
+		B5D45610D58D36C618DD665418ABA95F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Device;
+			target = 113F9E1CB32724B844C418EC0DFB76E3 /* Device */;
+			targetProxy = 43B6E9F5898BB67C23F894CA31D09549 /* PBXContainerItemProxy */;
+		};
+		E2BA5EC18A0B3F153538D1E904FCEAC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RSFontSizes;
+			target = 0E119CE7F09441C1C972EC90ABF624E6 /* RSFontSizes */;
+			targetProxy = 424651A377A8D81183EF8563F7BA3752 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4229B68B99E342E61B96B2DF8BFA6054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FF9E398A8BB329788EB21D9C104B89F /* RSFontSizes.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/RSFontSizes/RSFontSizes-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 12;
+				MODULEMAP_FILE = Headers/Public/RSFontSizes/RSFontSizes.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = RSFontSizes;
+				PRODUCT_NAME = RSFontSizes;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D59FCA94A26B86697C0DF37C569601F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 378C24BE9633C40A4221D3D9BC6226F2 /* Pods-projectOne.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-projectOne/Pods-projectOne.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		73E1877E417C8A130EEF57888F053477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FF9E398A8BB329788EB21D9C104B89F /* RSFontSizes.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/RSFontSizes/RSFontSizes-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 12;
+				MODULEMAP_FILE = Headers/Public/RSFontSizes/RSFontSizes.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = RSFontSizes;
+				PRODUCT_NAME = RSFontSizes;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C7FC025747B55D46DDEDEE5F4DFD2F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B7B1102C2A0CED30006A194117F3EB36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DED0469572601D7C29DEAF71620F458A /* Device.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Device/Device-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MODULEMAP_FILE = Headers/Public/Device/Device.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Device;
+				PRODUCT_NAME = Device;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D592BB53F4055DC73529A311B1FBE721 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0426BA6FF4CDB00E8B4A2F6EB5527122 /* Pods-projectOne.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-projectOne/Pods-projectOne.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EEF25CDFE5981495667B2EF4925DC0C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		FFCF7A4083A91EBCC11E29F6551C3F60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DED0469572601D7C29DEAF71620F458A /* Device.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Device/Device-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MODULEMAP_FILE = Headers/Public/Device/Device.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Device;
+				PRODUCT_NAME = Device;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEF25CDFE5981495667B2EF4925DC0C9 /* Debug */,
+				8C7FC025747B55D46DDEDEE5F4DFD2F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C75E5D106123A7C16491F9412465BB4 /* Build configuration list for PBXNativeTarget "Device" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7B1102C2A0CED30006A194117F3EB36 /* Debug */,
+				FFCF7A4083A91EBCC11E29F6551C3F60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56D65BB78346FCEDA8E1F0C24D52D0BA /* Build configuration list for PBXNativeTarget "RSFontSizes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4229B68B99E342E61B96B2DF8BFA6054 /* Debug */,
+				73E1877E417C8A130EEF57888F053477 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF7A107B4AD872737E1C378A5CB125ED /* Build configuration list for PBXNativeTarget "Pods-projectOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D592BB53F4055DC73529A311B1FBE721 /* Debug */,
+				4D59FCA94A26B86697C0DF37C569601F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

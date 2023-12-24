@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6FE34F26757973099A882F8B /* libPods-projectOne.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 40524C6A8024D4F5A2F9264F /* libPods-projectOne.a */; };
 		8312A7112B3196370084C469 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8312A7102B3196370084C469 /* AppDelegate.swift */; };
 		8312A7132B3196370084C469 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8312A7122B3196370084C469 /* SceneDelegate.swift */; };
 		8312A7152B3196370084C469 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8312A7142B3196370084C469 /* ViewController.swift */; };
@@ -15,9 +16,12 @@
 		8312A71D2B3196390084C469 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8312A71B2B3196390084C469 /* LaunchScreen.storyboard */; };
 		832578FE2B3434C0009202B7 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832578FD2B3434C0009202B7 /* NewViewController.swift */; };
 		8375C9C72B31A20A00C9EAB8 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 8375C9C62B31A20A00C9EAB8 /* fonts */; };
+		B6A2F87F2B3819DD00ECC014 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A2F87E2B3819DD00ECC014 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		27E1B735104E16EFC3B0F9F4 /* Pods-projectOne.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-projectOne.release.xcconfig"; path = "Target Support Files/Pods-projectOne/Pods-projectOne.release.xcconfig"; sourceTree = "<group>"; };
+		40524C6A8024D4F5A2F9264F /* libPods-projectOne.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-projectOne.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8312A70D2B3196370084C469 /* projectOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = projectOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8312A7102B3196370084C469 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8312A7122B3196370084C469 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,6 +32,8 @@
 		832578FD2B3434C0009202B7 /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 		8375C9C62B31A20A00C9EAB8 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
 		83FD453C2B34881A00D493D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6A2F87E2B3819DD00ECC014 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		F0A79486A617323097B3C92E /* Pods-projectOne.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-projectOne.debug.xcconfig"; path = "Target Support Files/Pods-projectOne/Pods-projectOne.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +41,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FE34F26757973099A882F8B /* libPods-projectOne.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05A75A9A9010B174B7124973 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40524C6A8024D4F5A2F9264F /* libPods-projectOne.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2414324F531D09F934D9ECC8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F0A79486A617323097B3C92E /* Pods-projectOne.debug.xcconfig */,
+				27E1B735104E16EFC3B0F9F4 /* Pods-projectOne.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		8312A7042B3196370084C469 = {
 			isa = PBXGroup;
 			children = (
 				8312A70F2B3196370084C469 /* projectOne */,
 				8312A70E2B3196370084C469 /* Products */,
+				2414324F531D09F934D9ECC8 /* Pods */,
+				05A75A9A9010B174B7124973 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +91,7 @@
 				8312A7122B3196370084C469 /* SceneDelegate.swift */,
 				8312A7142B3196370084C469 /* ViewController.swift */,
 				832578FD2B3434C0009202B7 /* NewViewController.swift */,
+				B6A2F87E2B3819DD00ECC014 /* SecondViewController.swift */,
 				8312A7162B3196370084C469 /* Main.storyboard */,
 				8312A7192B3196390084C469 /* Assets.xcassets */,
 				8312A71B2B3196390084C469 /* LaunchScreen.storyboard */,
@@ -80,6 +108,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8312A7212B3196390084C469 /* Build configuration list for PBXNativeTarget "projectOne" */;
 			buildPhases = (
+				9C2D8AC46194AD2A0A7429F8 /* [CP] Check Pods Manifest.lock */,
 				8312A7092B3196370084C469 /* Sources */,
 				8312A70A2B3196370084C469 /* Frameworks */,
 				8312A70B2B3196370084C469 /* Resources */,
@@ -140,6 +169,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9C2D8AC46194AD2A0A7429F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-projectOne-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8312A7092B3196370084C469 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -148,6 +202,7 @@
 				8312A7152B3196370084C469 /* ViewController.swift in Sources */,
 				8312A7112B3196370084C469 /* AppDelegate.swift in Sources */,
 				8312A7132B3196370084C469 /* SceneDelegate.swift in Sources */,
+				B6A2F87F2B3819DD00ECC014 /* SecondViewController.swift in Sources */,
 				832578FE2B3434C0009202B7 /* NewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,6 +350,7 @@
 		};
 		8312A7222B3196390084C469 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0A79486A617323097B3C92E /* Pods-projectOne.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -323,6 +379,7 @@
 		};
 		8312A7232B3196390084C469 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27E1B735104E16EFC3B0F9F4 /* Pods-projectOne.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

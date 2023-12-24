@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Uh5-Wm-SkD">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Uh5-Wm-SkD">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -674,8 +674,14 @@
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YDe-LO-GV9">
                                                         <rect key="frame" x="0.0" y="0.0" width="118" height="104"/>
                                                         <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="plain" image="internet-antenna-01" imagePlacement="top" title="Face Cam" imagePadding="17.670000000000002">
-                                                            <fontDescription key="titleFontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="12"/>
+                                                        <buttonConfiguration key="configuration" style="plain" image="internet-antenna-01" imagePlacement="top" imagePadding="15">
+                                                            <attributedString key="attributedTitle">
+                                                                <fragment content="Face Cam">
+                                                                    <attributes>
+                                                                        <font key="NSFont" size="12" name="CourierNewPS-BoldMT"/>
+                                                                    </attributes>
+                                                                </fragment>
+                                                            </attributedString>
                                                             <color key="baseForegroundColor" name="CharcterWritting"/>
                                                         </buttonConfiguration>
                                                     </button>
@@ -702,8 +708,14 @@
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7aq-og-67O">
                                                         <rect key="frame" x="0.0" y="0.0" width="118" height="104"/>
                                                         <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="plain" image="video-01" imagePlacement="top" title="Video Editor" imagePadding="17.670000000000002">
-                                                            <fontDescription key="titleFontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="12"/>
+                                                        <buttonConfiguration key="configuration" style="plain" image="video-01" imagePlacement="top" imagePadding="15">
+                                                            <attributedString key="attributedTitle">
+                                                                <fragment content="Video Editor">
+                                                                    <attributes>
+                                                                        <font key="NSFont" size="12" name="CourierNewPS-BoldMT"/>
+                                                                    </attributes>
+                                                                </fragment>
+                                                            </attributedString>
                                                             <color key="baseForegroundColor" name="CharcterWritting"/>
                                                         </buttonConfiguration>
                                                     </button>
@@ -722,8 +734,14 @@
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="noT-Mm-LN5">
                                                         <rect key="frame" x="0.0" y="0.0" width="118" height="104"/>
                                                         <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="plain" image="internet-1antenna-01" imagePlacement="top" title="Live Stream" imagePadding="17.670000000000002">
-                                                            <fontDescription key="titleFontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="12"/>
+                                                        <buttonConfiguration key="configuration" style="plain" image="internet-1antenna-01" imagePlacement="top" imagePadding="15">
+                                                            <attributedString key="attributedTitle">
+                                                                <fragment content="Live Stream">
+                                                                    <attributes>
+                                                                        <font key="NSFont" size="12" name="CourierNewPS-BoldMT"/>
+                                                                    </attributes>
+                                                                </fragment>
+                                                            </attributedString>
                                                             <color key="baseForegroundColor" name="CharcterWritting"/>
                                                         </buttonConfiguration>
                                                     </button>
@@ -790,7 +808,7 @@
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gAg-my-mhl" userLabel="FIrst">
                                         <rect key="frame" x="0.0" y="0.0" width="16" height="104"/>
-                                        <color key="backgroundColor" name="bg2"/>
+                                        <color key="backgroundColor" name="bg1"/>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qmd-bj-nR1" userLabel="last">
                                         <rect key="frame" x="398" y="0.0" width="16" height="104"/>
@@ -802,8 +820,15 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p9x-fc-AtQ">
                                                 <rect key="frame" x="0.0" y="0.0" width="118" height="104"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" image="music-note-03" imagePlacement="top" title="Add Music" imagePadding="17.670000000000002">
-                                                    <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="12"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="music-note-03" imagePlacement="top" imagePadding="15">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="Add Music">
+                                                            <attributes>
+                                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                                <font key="NSFont" size="12" name="CourierNewPS-BoldMT"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
                                                     <color key="baseForegroundColor" name="CharcterWritting"/>
                                                 </buttonConfiguration>
                                             </button>
@@ -822,8 +847,14 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rCL-7D-E6Y">
                                                 <rect key="frame" x="0.0" y="0.0" width="118" height="104"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" image="Xotech1 Setting icon" imagePlacement="top" title="More Tools" imagePadding="17.670000000000002">
-                                                    <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="12"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="Xotech1 Setting icon" imagePlacement="top" imagePadding="15">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="More Tools">
+                                                            <attributes>
+                                                                <font key="NSFont" size="12" name="CourierNewPS-BoldMT"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
                                                     <color key="baseForegroundColor" name="CharcterWritting"/>
                                                 </buttonConfiguration>
                                             </button>
@@ -850,8 +881,29 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TMP-jV-5lW">
                                                 <rect key="frame" x="0.0" y="0.0" width="118" height="104"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" image="extract audio_solid" imagePlacement="top" title="Extract Audio" imagePadding="17.670000000000002">
-                                                    <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="12"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="extract audio_solid" imagePlacement="top" imagePadding="15">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="Extract">
+                                                            <attributes>
+                                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                                <font key="NSFont" size="12" name="CourierNewPS-BoldMT"/>
+                                                                <font key="NSOriginalFont" size="12" name="ArialHebrew-Bold"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content=" ">
+                                                            <attributes>
+                                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                                <font key="NSFont" size="12" name="CourierNewPS-BoldMT"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="Audio">
+                                                            <attributes>
+                                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                                <font key="NSFont" size="12" name="CourierNewPS-BoldMT"/>
+                                                                <font key="NSOriginalFont" size="12" name="ArialHebrew-Bold"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
                                                     <color key="baseForegroundColor" name="CharcterWritting"/>
                                                 </buttonConfiguration>
                                             </button>
@@ -911,7 +963,28 @@
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eYr-bC-YgS" userLabel="14">
                                 <rect key="frame" x="0.0" y="801" width="414" height="2"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="KsI-L0-Rty">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hUy-M4-fZI">
+                                                <rect key="frame" x="0.0" y="0.0" width="207" height="2"/>
+                                                <color key="backgroundColor" red="1" green="0.4779587984" blue="0.23692762849999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kAm-xE-4io">
+                                                <rect key="frame" x="207" y="0.0" width="207" height="2"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
                                 <color key="backgroundColor" systemColor="labelColor"/>
+                                <constraints>
+                                    <constraint firstItem="KsI-L0-Rty" firstAttribute="leading" secondItem="eYr-bC-YgS" secondAttribute="leading" id="SWY-6s-7c7"/>
+                                    <constraint firstItem="KsI-L0-Rty" firstAttribute="top" secondItem="eYr-bC-YgS" secondAttribute="top" id="Xs9-dR-FLq"/>
+                                    <constraint firstAttribute="trailing" secondItem="KsI-L0-Rty" secondAttribute="trailing" id="gmq-yN-rdg"/>
+                                    <constraint firstAttribute="bottom" secondItem="KsI-L0-Rty" secondAttribute="bottom" id="kQt-pY-16B"/>
+                                </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OXB-RM-kCq" userLabel="15">
                                 <rect key="frame" x="0.0" y="803" width="414" height="59"/>
@@ -922,16 +995,28 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ScQ-EY-Jqh">
                                                 <rect key="frame" x="0.0" y="0.0" width="207" height="59"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" image="Xotech Record icon" imagePlacement="top" title="Tools">
-                                                    <fontDescription key="titleFontDescription" type="system" pointSize="10"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="Xotech Record icon" imagePlacement="top">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="Tools">
+                                                            <attributes>
+                                                                <font key="NSFont" size="10" name="CourierNewPS-BoldMT"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
                                                     <color key="baseForegroundColor" name="CharcterWritting"/>
                                                 </buttonConfiguration>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bh1-PT-Vf9">
                                                 <rect key="frame" x="207" y="0.0" width="207" height="59"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" image="projects" imagePlacement="top" title="Projects">
-                                                    <fontDescription key="titleFontDescription" type="system" pointSize="10"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="projects" imagePlacement="top">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="Projects">
+                                                            <attributes>
+                                                                <font key="NSFont" size="10" name="CourierNewPS-BoldMT"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
                                                     <color key="baseForegroundColor" name="CharcterWritting"/>
                                                 </buttonConfiguration>
                                             </button>
@@ -1057,47 +1142,276 @@
             </objects>
             <point key="canvasLocation" x="2136" y="-129"/>
         </scene>
-        <!--View Controller-->
+        <!--New View Controller-->
         <scene sceneID="lwc-HU-W83">
             <objects>
-                <viewController id="Uh5-Wm-SkD" sceneMemberID="viewController">
+                <viewController id="Uh5-Wm-SkD" customClass="NewViewController" customModule="projectOne" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iFR-J2-t8m">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dDf-jb-hoS">
-                                <rect key="frame" x="159" y="485" width="75" height="41"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dDf-jb-hoS">
+                                <rect key="frame" x="134" y="404" width="146" height="89"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <size key="titleShadowOffset" width="10" height="10"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="Xotech1 Setting icon" imagePlacement="top" title="More Tools" imagePadding="17.670000000000002" cornerStyle="dynamic">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" red="0.96146005779999999" green="0.94400974550000005" blue="0.88179298189999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="strokeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </backgroundConfiguration>
+                                    <color key="baseForegroundColor" name="CharcterWritting"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="takeAction:" destination="Uh5-Wm-SkD" eventType="touchUpInside" id="FdS-cU-WOz"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="YIs-2A-07k"/>
-                        <color key="backgroundColor" systemColor="systemBlueColor"/>
+                        <color key="backgroundColor" systemColor="systemGray3Color"/>
                     </view>
                     <connections>
-                        <segue destination="jby-gL-ZTg" kind="presentation" modalPresentationStyle="pageSheet" id="2LI-gc-Rv0"/>
+                        <segue destination="W4X-Ys-6xP" kind="show" identifier="gooo" id="TVa-10-BZ9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="La8-T9-Did" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3096" y="-129"/>
+            <point key="canvasLocation" x="3095.6521739130435" y="-129.24107142857142"/>
         </scene>
-        <!--View Controller-->
+        <!--Second View Controller-->
         <scene sceneID="I5Z-2k-irX">
             <objects>
-                <viewController id="jby-gL-ZTg" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="tjC-qb-i3L">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="886"/>
+                <viewController id="jby-gL-ZTg" customClass="SecondViewController" customModule="projectOne" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="tjC-qb-i3L">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eyg-ji-aV5" userLabel="1st">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="146"/>
+                                <color key="backgroundColor" name="bg1"/>
+                            </view>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aMs-qH-VJD" userLabel="2nd">
+                                <rect key="frame" x="0.0" y="146" width="414" height="208"/>
+                                <color key="backgroundColor" name="AccentColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lhu-6R-e1B" userLabel="3rd">
+                                <rect key="frame" x="0.0" y="354" width="414" height="32"/>
+                                <color key="backgroundColor" name="bg1"/>
+                            </view>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FUv-wT-Urj" userLabel="4th">
+                                <rect key="frame" x="0.0" y="386" width="414" height="208"/>
+                                <color key="backgroundColor" name="AccentColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gBc-XX-NZS" userLabel="5th">
+                                <rect key="frame" x="0.0" y="594" width="414" height="32"/>
+                                <color key="backgroundColor" name="bg1"/>
+                            </view>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CmJ-21-L15" userLabel="6th">
+                                <rect key="frame" x="0.0" y="626" width="414" height="208"/>
+                                <color key="backgroundColor" name="AccentColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iZM-9x-7xL" userLabel="7th">
+                                <rect key="frame" x="0.0" y="834" width="414" height="52"/>
+                                <color key="backgroundColor" name="bg1"/>
+                            </view>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Q8k-bH-UhM"/>
-                        <color key="backgroundColor" systemColor="systemGray4Color"/>
+                        <color key="backgroundColor" systemColor="tableCellPlainBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="FUv-wT-Urj" firstAttribute="width" secondItem="tjC-qb-i3L" secondAttribute="width" id="0WH-kT-O7y"/>
+                            <constraint firstItem="gBc-XX-NZS" firstAttribute="leading" secondItem="Q8k-bH-UhM" secondAttribute="leading" id="0fE-hf-ZMu"/>
+                            <constraint firstItem="aMs-qH-VJD" firstAttribute="trailing" secondItem="Q8k-bH-UhM" secondAttribute="trailing" id="2Kd-dH-K5T"/>
+                            <constraint firstItem="iZM-9x-7xL" firstAttribute="height" secondItem="tjC-qb-i3L" secondAttribute="height" multiplier="0.0586907" id="6eK-q3-TCQ"/>
+                            <constraint firstItem="iZM-9x-7xL" firstAttribute="top" secondItem="CmJ-21-L15" secondAttribute="bottom" id="7k0-ka-LKZ"/>
+                            <constraint firstItem="gBc-XX-NZS" firstAttribute="trailing" secondItem="Q8k-bH-UhM" secondAttribute="trailing" id="9Oc-Me-IBK"/>
+                            <constraint firstItem="eyg-ji-aV5" firstAttribute="trailing" secondItem="Q8k-bH-UhM" secondAttribute="trailing" id="Bnr-oM-nL8"/>
+                            <constraint firstItem="aMs-qH-VJD" firstAttribute="width" secondItem="tjC-qb-i3L" secondAttribute="width" id="DKf-z8-tQJ"/>
+                            <constraint firstItem="iZM-9x-7xL" firstAttribute="top" secondItem="CmJ-21-L15" secondAttribute="bottom" id="EOz-te-ii1"/>
+                            <constraint firstItem="CmJ-21-L15" firstAttribute="width" secondItem="tjC-qb-i3L" secondAttribute="width" id="FJd-Mr-Z52"/>
+                            <constraint firstItem="gBc-XX-NZS" firstAttribute="width" secondItem="tjC-qb-i3L" secondAttribute="width" id="HfN-s1-9GY"/>
+                            <constraint firstItem="aMs-qH-VJD" firstAttribute="top" secondItem="eyg-ji-aV5" secondAttribute="bottom" id="HjG-r8-6we"/>
+                            <constraint firstItem="FUv-wT-Urj" firstAttribute="height" secondItem="tjC-qb-i3L" secondAttribute="height" multiplier="0.234763" id="JbB-ug-Stu"/>
+                            <constraint firstItem="gBc-XX-NZS" firstAttribute="top" secondItem="FUv-wT-Urj" secondAttribute="bottom" id="Jyp-70-On8"/>
+                            <constraint firstItem="iZM-9x-7xL" firstAttribute="width" secondItem="tjC-qb-i3L" secondAttribute="width" id="MT8-Bb-3Lc"/>
+                            <constraint firstItem="CmJ-21-L15" firstAttribute="trailing" secondItem="Q8k-bH-UhM" secondAttribute="trailing" id="Mph-Ar-LwB"/>
+                            <constraint firstItem="lhu-6R-e1B" firstAttribute="top" secondItem="aMs-qH-VJD" secondAttribute="bottom" id="N8I-Bi-UbI"/>
+                            <constraint firstItem="CmJ-21-L15" firstAttribute="height" secondItem="tjC-qb-i3L" secondAttribute="height" multiplier="0.234763" id="P66-8I-XFi"/>
+                            <constraint firstItem="lhu-6R-e1B" firstAttribute="height" secondItem="tjC-qb-i3L" secondAttribute="height" multiplier="0.0361174" id="Pth-1B-t6f"/>
+                            <constraint firstItem="gBc-XX-NZS" firstAttribute="height" secondItem="tjC-qb-i3L" secondAttribute="height" multiplier="0.0361174" id="Pw8-cM-6xr"/>
+                            <constraint firstItem="CmJ-21-L15" firstAttribute="top" secondItem="gBc-XX-NZS" secondAttribute="bottom" id="Qcw-tx-FBQ"/>
+                            <constraint firstItem="iZM-9x-7xL" firstAttribute="leading" secondItem="Q8k-bH-UhM" secondAttribute="leading" id="RvI-oB-l3U"/>
+                            <constraint firstItem="CmJ-21-L15" firstAttribute="leading" secondItem="Q8k-bH-UhM" secondAttribute="leading" id="U7h-9d-HWM"/>
+                            <constraint firstItem="aMs-qH-VJD" firstAttribute="leading" secondItem="Q8k-bH-UhM" secondAttribute="leading" id="V4s-8p-OKz"/>
+                            <constraint firstItem="FUv-wT-Urj" firstAttribute="top" secondItem="lhu-6R-e1B" secondAttribute="bottom" id="Vw5-NO-PAm"/>
+                            <constraint firstItem="CmJ-21-L15" firstAttribute="top" secondItem="gBc-XX-NZS" secondAttribute="bottom" id="WGD-jT-I09"/>
+                            <constraint firstItem="eyg-ji-aV5" firstAttribute="leading" secondItem="Q8k-bH-UhM" secondAttribute="leading" id="ZqL-Nk-2mj"/>
+                            <constraint firstItem="aMs-qH-VJD" firstAttribute="height" secondItem="tjC-qb-i3L" secondAttribute="height" multiplier="0.234763" id="aTS-u2-Wva"/>
+                            <constraint firstItem="FUv-wT-Urj" firstAttribute="top" secondItem="lhu-6R-e1B" secondAttribute="bottom" id="aki-xS-xYb"/>
+                            <constraint firstItem="lhu-6R-e1B" firstAttribute="top" secondItem="aMs-qH-VJD" secondAttribute="bottom" id="c7V-sO-hlK"/>
+                            <constraint firstItem="FUv-wT-Urj" firstAttribute="leading" secondItem="Q8k-bH-UhM" secondAttribute="leading" id="ghT-eL-CGM"/>
+                            <constraint firstItem="lhu-6R-e1B" firstAttribute="leading" secondItem="Q8k-bH-UhM" secondAttribute="leading" id="hxJ-zX-Rwf"/>
+                            <constraint firstItem="aMs-qH-VJD" firstAttribute="top" secondItem="eyg-ji-aV5" secondAttribute="bottom" id="iKa-Rw-c0Z"/>
+                            <constraint firstItem="lhu-6R-e1B" firstAttribute="trailing" secondItem="Q8k-bH-UhM" secondAttribute="trailing" id="ijd-Lr-ER6"/>
+                            <constraint firstItem="iZM-9x-7xL" firstAttribute="bottom" secondItem="Q8k-bH-UhM" secondAttribute="bottom" id="lkf-tK-zHm"/>
+                            <constraint firstItem="FUv-wT-Urj" firstAttribute="trailing" secondItem="Q8k-bH-UhM" secondAttribute="trailing" id="lnd-hd-xFe"/>
+                            <constraint firstItem="eyg-ji-aV5" firstAttribute="width" secondItem="tjC-qb-i3L" secondAttribute="width" id="mMB-dd-TSF"/>
+                            <constraint firstItem="gBc-XX-NZS" firstAttribute="top" secondItem="FUv-wT-Urj" secondAttribute="bottom" id="nGW-3R-7MJ"/>
+                            <constraint firstItem="lhu-6R-e1B" firstAttribute="width" secondItem="tjC-qb-i3L" secondAttribute="width" id="sMu-vm-bNQ"/>
+                            <constraint firstItem="eyg-ji-aV5" firstAttribute="height" secondItem="tjC-qb-i3L" secondAttribute="height" multiplier="0.164786" id="w68-SX-z86"/>
+                            <constraint firstItem="iZM-9x-7xL" firstAttribute="trailing" secondItem="Q8k-bH-UhM" secondAttribute="trailing" id="yD6-xT-b9I"/>
+                            <constraint firstItem="eyg-ji-aV5" firstAttribute="top" secondItem="Q8k-bH-UhM" secondAttribute="top" id="z2M-Qh-sC0"/>
+                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="NPo-rg-28O"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DjZ-2v-n0v" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3868" y="-129"/>
+            <point key="canvasLocation" x="4426" y="520"/>
+        </scene>
+        <!--Second View Controller-->
+        <scene sceneID="5HI-vN-3an">
+            <objects>
+                <viewController id="W4X-Ys-6xP" customClass="SecondViewController" customModule="projectOne" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YyA-Vv-kWr">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="886"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eP7-kt-uEg">
+                                <rect key="frame" x="7" y="93" width="117" height="89"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <size key="titleShadowOffset" width="10" height="10"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="Xotech1 Setting icon" imagePlacement="top" title="More Tools" imagePadding="17.670000000000002" cornerStyle="dynamic">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" red="0.96146005779999999" green="0.94400974550000005" blue="0.88179298189999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="strokeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </backgroundConfiguration>
+                                    <color key="baseForegroundColor" name="CharcterWritting"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="takeAction:" destination="Uh5-Wm-SkD" eventType="touchUpInside" id="AiW-Pw-eg1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Erk-kt-czY">
+                                <rect key="frame" x="141" y="93" width="117" height="89"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <size key="titleShadowOffset" width="10" height="10"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="Xotech1 Setting icon" imagePlacement="top" title="More Tools" imagePadding="17.670000000000002" cornerStyle="dynamic">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" red="0.96146005779999999" green="0.94400974550000005" blue="0.88179298189999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="strokeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </backgroundConfiguration>
+                                    <color key="baseForegroundColor" name="CharcterWritting"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="takeAction:" destination="Uh5-Wm-SkD" eventType="touchUpInside" id="9MO-gg-Wza"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TAc-OX-R0Y">
+                                <rect key="frame" x="277" y="93" width="117" height="89"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <size key="titleShadowOffset" width="10" height="10"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="Xotech1 Setting icon" imagePlacement="top" title="More Tools" imagePadding="17.670000000000002" cornerStyle="dynamic">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" red="0.96146005779999999" green="0.94400974550000005" blue="0.88179298189999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="strokeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </backgroundConfiguration>
+                                    <color key="baseForegroundColor" name="CharcterWritting"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="takeAction:" destination="Uh5-Wm-SkD" eventType="touchUpInside" id="20K-ea-wAg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XLO-4n-NEZ">
+                                <rect key="frame" x="7" y="199" width="117" height="89"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <size key="titleShadowOffset" width="10" height="10"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="Xotech1 Setting icon" imagePlacement="top" title="More Tools" imagePadding="17.670000000000002" cornerStyle="dynamic">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" red="0.96146005779999999" green="0.94400974550000005" blue="0.88179298189999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="strokeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </backgroundConfiguration>
+                                    <color key="baseForegroundColor" name="CharcterWritting"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="takeAction:" destination="Uh5-Wm-SkD" eventType="touchUpInside" id="LSb-21-2n9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kvb-qv-QIo">
+                                <rect key="frame" x="141" y="199" width="117" height="89"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <size key="titleShadowOffset" width="10" height="10"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="Xotech1 Setting icon" imagePlacement="top" title="More Tools" imagePadding="17.670000000000002" cornerStyle="dynamic">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" red="0.96146005779999999" green="0.94400974550000005" blue="0.88179298189999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="strokeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </backgroundConfiguration>
+                                    <color key="baseForegroundColor" name="CharcterWritting"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="takeAction:" destination="Uh5-Wm-SkD" eventType="touchUpInside" id="SqW-x7-12h"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jga-PN-CBt">
+                                <rect key="frame" x="277" y="199" width="117" height="89"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <size key="titleShadowOffset" width="10" height="10"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="Xotech1 Setting icon" imagePlacement="top" title="More Tools" imagePadding="17.670000000000002" cornerStyle="dynamic">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" red="0.96146005779999999" green="0.94400974550000005" blue="0.88179298189999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="strokeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </backgroundConfiguration>
+                                    <color key="baseForegroundColor" name="CharcterWritting"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="takeAction:" destination="Uh5-Wm-SkD" eventType="touchUpInside" id="qti-K3-6lw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hNI-DM-O92">
+                                <rect key="frame" x="7" y="305" width="117" height="89"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <size key="titleShadowOffset" width="10" height="10"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="Xotech1 Setting icon" imagePlacement="top" title="More Tools" imagePadding="17.670000000000002" cornerStyle="dynamic">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" red="0.96146005779999999" green="0.94400974550000005" blue="0.88179298189999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="strokeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </backgroundConfiguration>
+                                    <color key="baseForegroundColor" name="CharcterWritting"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="takeAction:" destination="Uh5-Wm-SkD" eventType="touchUpInside" id="Bj3-6A-g08"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cMr-za-kvw">
+                                <rect key="frame" x="141" y="305" width="117" height="89"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <size key="titleShadowOffset" width="10" height="10"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="Xotech1 Setting icon" imagePlacement="top" title="More Tools" imagePadding="17.670000000000002" cornerStyle="dynamic">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" red="0.96146005779999999" green="0.94400974550000005" blue="0.88179298189999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="strokeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </backgroundConfiguration>
+                                    <color key="baseForegroundColor" name="CharcterWritting"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="takeAction:" destination="Uh5-Wm-SkD" eventType="touchUpInside" id="4Vq-5x-b0V"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="T4O-V8-BOM"/>
+                        <color key="backgroundColor" systemColor="systemRedColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="aNR-uM-DGb"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qrY-3S-EN7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3931.884057971015" y="-129.24107142857142"/>
         </scene>
     </scenes>
     <resources>
@@ -1113,8 +1427,11 @@
         <image name="settings" width="24" height="24"/>
         <image name="sliderImage" width="1565" height="1037.5"/>
         <image name="video-01" width="40" height="40"/>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <namedColor name="CharcterWritting">
-            <color red="0.023529411760000001" green="0.031372549020000001" blue="0.043137254899999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.024000000208616257" green="0.030999999493360519" blue="0.043000001460313797" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="bg1">
             <color red="0.9649999737739563" green="0.9649999737739563" blue="0.9649999737739563" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1129,25 +1446,31 @@
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="linkColor">
-            <color red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
-        <systemColor name="systemBlueColor">
-            <color red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemBrownColor">
-            <color red="0.63529411759999999" green="0.51764705879999995" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.63529411764705879" green="0.51764705882352946" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemGray2Color">
-            <color red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
-        <systemColor name="systemGray4Color">
-            <color red="0.81960784310000001" green="0.81960784310000001" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <systemColor name="systemGray3Color">
+            <color red="0.7803921568627451" green="0.7803921568627451" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemGreenColor">
-            <color red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="tableCellPlainBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="tintColor">
-            <color red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

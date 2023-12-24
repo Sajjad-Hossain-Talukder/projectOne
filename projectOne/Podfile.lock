@@ -1,0 +1,20 @@
+PODS:
+  - Device (3.5.0)
+  - RSFontSizes (1.3.2):
+    - Device (~> 3.5.0)
+
+DEPENDENCIES:
+  - RSFontSizes
+
+SPEC REPOS:
+  trunk:
+    - Device
+    - RSFontSizes
+
+SPEC CHECKSUMS:
+  Device: 721760f4ab456e37b49bd541dfa42802ba9aa4c0
+  RSFontSizes: 265b8b01884b4aca48f81b9ccea5ea991580ec58
+
+PODFILE CHECKSUM: 72448fff6645e05781e77e0c6300fb34f9d8fae4
+
+COCOAPODS: 1.8.4
