@@ -17,6 +17,9 @@
 		832578FE2B3434C0009202B7 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832578FD2B3434C0009202B7 /* NewViewController.swift */; };
 		8375C9C72B31A20A00C9EAB8 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 8375C9C62B31A20A00C9EAB8 /* fonts */; };
 		B6A2F87F2B3819DD00ECC014 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A2F87E2B3819DD00ECC014 /* SecondViewController.swift */; };
+		B6BE697E2B3AB4830063FCBA /* ProjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BE697D2B3AB4830063FCBA /* ProjectViewController.swift */; };
+		B6BE69802B3AF95E0063FCBA /* Projects.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BE697F2B3AF95E0063FCBA /* Projects.swift */; };
+		B6BE69842B3AFC0C0063FCBA /* ProjectCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BE69832B3AFC0C0063FCBA /* ProjectCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +36,9 @@
 		8375C9C62B31A20A00C9EAB8 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
 		83FD453C2B34881A00D493D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6A2F87E2B3819DD00ECC014 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		B6BE697D2B3AB4830063FCBA /* ProjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectViewController.swift; sourceTree = "<group>"; };
+		B6BE697F2B3AF95E0063FCBA /* Projects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Projects.swift; sourceTree = "<group>"; };
+		B6BE69832B3AFC0C0063FCBA /* ProjectCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectCollectionViewCell.swift; sourceTree = "<group>"; };
 		F0A79486A617323097B3C92E /* Pods-projectOne.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-projectOne.debug.xcconfig"; path = "Target Support Files/Pods-projectOne/Pods-projectOne.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,7 +68,6 @@
 				F0A79486A617323097B3C92E /* Pods-projectOne.debug.xcconfig */,
 				27E1B735104E16EFC3B0F9F4 /* Pods-projectOne.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -92,11 +97,14 @@
 				8312A7142B3196370084C469 /* ViewController.swift */,
 				832578FD2B3434C0009202B7 /* NewViewController.swift */,
 				B6A2F87E2B3819DD00ECC014 /* SecondViewController.swift */,
+				B6BE697D2B3AB4830063FCBA /* ProjectViewController.swift */,
 				8312A7162B3196370084C469 /* Main.storyboard */,
 				8312A7192B3196390084C469 /* Assets.xcassets */,
 				8312A71B2B3196390084C469 /* LaunchScreen.storyboard */,
 				83FD453C2B34881A00D493D9 /* Info.plist */,
 				8375C9C62B31A20A00C9EAB8 /* fonts */,
+				B6BE697F2B3AF95E0063FCBA /* Projects.swift */,
+				B6BE69832B3AFC0C0063FCBA /* ProjectCollectionViewCell.swift */,
 			);
 			path = projectOne;
 			sourceTree = "<group>";
@@ -199,8 +207,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6BE69802B3AF95E0063FCBA /* Projects.swift in Sources */,
 				8312A7152B3196370084C469 /* ViewController.swift in Sources */,
 				8312A7112B3196370084C469 /* AppDelegate.swift in Sources */,
+				B6BE697E2B3AB4830063FCBA /* ProjectViewController.swift in Sources */,
+				B6BE69842B3AFC0C0063FCBA /* ProjectCollectionViewCell.swift in Sources */,
 				8312A7132B3196370084C469 /* SceneDelegate.swift in Sources */,
 				B6A2F87F2B3819DD00ECC014 /* SecondViewController.swift in Sources */,
 				832578FE2B3434C0009202B7 /* NewViewController.swift in Sources */,

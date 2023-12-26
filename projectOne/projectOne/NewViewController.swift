@@ -26,7 +26,7 @@ class NewViewController: UIViewController {
                var secondVC = segue.destination as! SecondViewController
                if #available(iOS 15.0, *) {
                    if let sheet = secondVC.sheetPresentationController{
-                       let multiplier =  0.450893
+                       let multiplier =  0.6 // 0.450893
                        let height = self.view.safeAreaLayoutGuide.layoutFrame.size.height
                        if #available(iOS 16.0, *) {
                            let fraction = UISheetPresentationController.Detent.custom { context in
