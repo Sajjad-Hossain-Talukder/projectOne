@@ -2,7 +2,7 @@ platform :ios, '13.0'
 
 target 'projectOne' do
   
-  # Pods for projectOne
+
 
     pod "RSFontSizes"
 
